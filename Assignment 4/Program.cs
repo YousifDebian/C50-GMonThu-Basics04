@@ -190,6 +190,26 @@
             //PrintBookInfo(pages: 464, title: "Clean Code");
 
             #endregion
+
+            #region Question 12
+
+            /* 12- Write a method PrintAllTitles(params string[] titles) that prints each title on its own line.
+                Call it with three book titles. */
+
+            //static void PrintAllTitles(params string[] titles)
+            //{
+            //    foreach (string title in titles)
+            //    {
+            //        Console.WriteLine(title);
+            //    }
+            //}
+
+            //static void Main()
+            //{
+            //    PrintAllTitles("Clean Code", "The Pragmatic Programmer", "Refactoring");
+            //}
+
+            #endregion
         }
     }
 }
