@@ -71,7 +71,26 @@
             //{
             //    int pages = 400;
             //    AddBonusPages(pages);
-            //    Console.WriteLine(pages);
+            //    Console.WriteLine(pages); ---> 400 , because the method modifies a copy of the variable and keeps the original.
+            //}
+
+            #endregion
+
+            #region Question 6
+
+            /* 6- Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0]. Call it with double[] prices = { 25.5, 40.0 };
+                and print prices[0] afterward. What do you expect to see, and why?*/
+
+            //static void ApplyDiscount(double[] prices)
+            //{
+            //    prices[0] -= 5;
+            //}
+
+            //static void Main()
+            //{
+            //    double[] prices = { 25.5, 40.0 };
+            //    ApplyDiscount(prices);
+            //    Console.WriteLine(prices[0]); ---> 20.5 , because the method modifies the original array since arrays are reference types.
             //}
 
             #endregion
