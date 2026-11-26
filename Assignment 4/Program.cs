@@ -94,6 +94,25 @@
             //}
 
             #endregion
+
+            #region Question 7
+
+            /* 7- Rewrite the method from question 5 as AddBonusPagesByRef(ref int pages) using ref.
+                    Call it and print pages afterward. How is the result different from question 5?*/
+
+            //static void AddBonusPagesByRef(ref int pages)
+            //{
+            //    pages += 50;
+            //}
+
+            //static void Main()
+            //{
+            //    int pages = 400;
+            //    AddBonusPagesByRef(ref pages);
+            //    Console.WriteLine(pages); ---> 450 , because the method modifies the original variable by reference.
+            //}
+
+            #endregion
         }
     }
 }
